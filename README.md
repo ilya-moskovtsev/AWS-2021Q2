@@ -39,3 +39,15 @@ Acceptance Criteria:
 - Root and service AWS accounts are registered
 - The service account is granted permissions to operate with EC2, IAM, S3
 - A screenshot of IAM policies is added to the module.
+
+#### 5. Order EC2 instance and deploy docker service to it, expose API
+Acceptance Criteria:
+
+- An EC2 instance (t2.micro) is launched with docker installed
+- The previously created docker image is run in EC2 and ports are exposed
+- Postman requests are executed as in previous steps
+- A screenshot of postman requests is added to the module.
+- A screenshot of EC2 instance running docker is added to the module.
+
+Optional:
+- Discover launching from a template
