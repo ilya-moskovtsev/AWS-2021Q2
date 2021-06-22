@@ -32,3 +32,10 @@ Optional:
 Acceptance Criteria:
 - Billing alerts to carefully track deviations from free tier is created (recommended > 1$)
 - A screenshot of alert is added to the module.
+
+#### 4. Set up IAM role & permissions to operate
+Acceptance Criteria:
+
+- Root and service AWS accounts are registered
+- The service account is granted permissions to operate with EC2, IAM, S3
+- A screenshot of IAM policies is added to the module.
