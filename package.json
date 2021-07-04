@@ -1,0 +1,28 @@
+{
+  "name": "aws-2021q2",
+  "version": "1.0.0",
+  "description": "CloudX Associate: AWS Developer 2021Q2 RU",
+  "main": "src/main/app.js",
+  "scripts": {
+    "start": "node src/main/app.js",
+    "dev": "nodemon src/main/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilya-moskovtsev/AWS-2021Q2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilya-moskovtsev/AWS-2021Q2/issues"
+  },
+  "homepage": "https://github.com/ilya-moskovtsev/AWS-2021Q2#readme",
+  "dependencies": {
+    "aws-sdk": "^2.922.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "winston": "^3.3.3"
+  }
+}
